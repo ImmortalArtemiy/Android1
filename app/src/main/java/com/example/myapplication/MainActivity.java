@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         public void openSecondActivity(View v) {
         Intent intent = new Intent(this, MainActivity2.class);
-        String dataToSend = "Hello, Mokrinsky!";
+        String dataToSend = "Gashkov Artemy";
         intent.putExtra("testNameData", dataToSend);
         startActivity(intent);
     }
